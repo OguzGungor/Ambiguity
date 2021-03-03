@@ -1,0 +1,36 @@
+{
+    "port": 1883,
+    "broadcastPort": 9876,
+    "subscriberID": "Ambiguity_Subscriber",
+    "topicDefault": "default",
+    "TOPIC_SERVER": "Ambiguity_Server",
+    "TOPIC_LOBY": "Ambiguity_Loby",
+    "TOPIC_GAME": "Ambiguity_Game",
+    "TOPIC_RESPONSE": "Ambiguity_Response",
+    "commands": {
+        "serverCommands": [
+            "createLoby",
+            "enterLoby",
+            "exitLoby",
+            "displayLoby",
+            "displayAll"
+        ],
+        "lobyCommands": [
+            "chat",
+            "changeLobyName",
+            "kickClient",
+            "readyGame",
+            "unreadyGame",
+            "getClients"
+        ],
+        "gameCommands": [
+            "move",
+            "passTurn",
+            "exit",
+            "map",
+            "gameTurn",
+            "addEvent",
+            "getPlayers"
+        ]
+    }
+}

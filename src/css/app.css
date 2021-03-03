@@ -1,0 +1,99 @@
+/**
+ *
+ * @author tbyor
+ */
+#SplashScene {
+    -fx-background-color: #505050;
+    -fx-text-fill: white;
+    -fx-font-family: "monospace";
+}
+
+#Menu {
+    -fx-background-color: #505050;
+    -fx-text-fill: white;
+    -fx-font-family: "monospace";
+}
+
+#GamePlayView {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: white;
+    -fx-font-family: "monospace";
+    -fx-font-size: 24px;
+}
+
+#GamePlayView#header {
+    -fx-background-color: #505050;
+    -fx-padding: 10;
+}
+
+#GamePlayView#mapView {
+    -fx-background-color: whitesmoke;
+    -fx-padding: 10;
+}
+
+#GamePlayView#footer {
+    -fx-background-color: #505050;
+    -fx-padding: 10;
+}
+
+Label {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-family: "monospace";
+    -fx-text-alignment: center;
+}
+
+Label#compName {
+    -fx-font: bold normal 256px "monospace";
+}
+
+Label#pressToCont {
+    -fx-font: normal normal 24px "monospace";
+}
+
+Label#heading {
+    -fx-text-fill: white;
+    -fx-font: bold normal 128px "monospace";
+    -fx-text-alignment: center;
+}
+
+Label#title {
+    -fx-font-size: 64px;
+}
+
+Label#credits {
+    -fx-font-size: 36px;
+    -fx-text-alignment: left;
+}
+
+Button {
+    -fx-background-color: transparent;
+    -fx-border-color: #D24D57;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-font: bold normal 16px "monospace";
+}
+
+Button:hover {
+    -fx-background-color: #D24D57;
+}
+
+Button:pressed {
+    -fx-background-color: #D24D57;
+    -fx-effect: innershadow(gaussian, #000000, 10, 0, 0, 0);
+}
+
+Button#primary {
+    -fx-background-color: #D24D57;
+}
+
+Button#secondary {
+    -fx-background-color: #009688;
+    -fx-border-color: #009688;
+}
+
+CheckBox {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
